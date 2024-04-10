@@ -2,7 +2,7 @@
 Desafío guiado - Aplicación de web en Python
 
 Tips: Las urls quedarían de la siguiente forma:
-from holaMundo.views import home,about, contact
+from vistaApp.views import home,about, contact
 urlpatterns = [
 path('admin/', admin.site.urls),
 path('', home),
